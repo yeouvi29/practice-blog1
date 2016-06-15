@@ -1,0 +1,130 @@
+body{
+	margin:0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+
+header{
+	border-bottom:1px solid #ddd;
+	margin:20px;
+	padding-left: 20px;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	
+
+}
+header a{
+	color: black;
+	text-decoration: none;
+}
+nav{
+	border-right:1px solid #ddd;
+	width:200px;
+	height:700px;
+	float:left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	letter-spacing: 3px;
+	line-height: 1.8;
+	padding-left : 10px;
+}
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: hotpink;
+}
+
+
+
+nav ol{
+	margin:0;
+	padding: 20px;
+	list-style:none;
+}
+#dwrite{
+	padding-left: 20px;
+	padding-top: 20px;
+	float:left;
+	width:600px;
+	letter-spacing: 1px;
+	line-height: 1.8;
+
+}
+#dwrite input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#dwrite input[type=submit] {
+    width: 50%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:right;
+}
+#dwrite input[type=submit]:hover {
+    background-color: #ddd;
+}
+#dtext {
+	width: 100%;
+	height: 200px;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+#dlist table{
+    border-collapse: collapse;
+    width: 200px;
+    float:right;
+    margin: 20px;
+
+}
+#dlist th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+#dlist td{
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#dlist tr:hover{
+	background-color:#f5f5f5
+
+}
+#dlist a {
+    text-decoration: none;
+    color:black;
+}
+#listdiary{
+	padding-left: 20px;
+	padding-bottom: 20px;
+	float:left;
+	width:  580px;
+	border: 1px solid #ddd;
+    margin: 30px;
+}
